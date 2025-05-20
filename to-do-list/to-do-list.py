@@ -52,7 +52,7 @@ def remover_tarefa(tarefas):
 def menu():
     tarefas = carregar_tarefas()
     while True:
-        print("===== To-DO list =====")
+        print("===== To-Do list =====")
         print("1 - Listar tarefas")
         print("2 - Adicionar tarefa")
         print("3 - Marcar como concluída")
